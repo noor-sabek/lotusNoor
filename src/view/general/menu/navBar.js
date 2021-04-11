@@ -22,7 +22,7 @@ class NavBar extends React.Component {
             <div className="collapse navbar-collapse">
               <ListItems/>
             </div>
-            
+
             <Search/>
 
         </nav>

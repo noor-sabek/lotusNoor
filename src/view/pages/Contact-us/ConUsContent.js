@@ -29,7 +29,7 @@ class ConUsItem extends React.Component {
 
                   <div class="form-group">
                     <label for={this.props.item.id}>  <b> {this.props.item.title}</b></label>
-                    <input type="text" className="form-control" id={this.props.item.id} placeholder={this.props.item.placeholder} name={this.props.item.id} required></input>
+                    <input type={this.props.item.type} className="form-control" id={this.props.item.id} placeholder={this.props.item.placeholder} name={this.props.item.id} required></input>
                     <div class="valid-feedback">Valid.</div>
                     <div class="invalid-feedback">Please fill out this field.</div>
                   </div>

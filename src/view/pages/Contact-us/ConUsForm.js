@@ -1,3 +1,4 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
@@ -10,6 +11,7 @@ import ReactDOM from 'react-dom';
             "title": "Name :",
             "emoje":"&#129303;",
             "placeholder":"Enter first & last name",
+            "type":"text",
             "id":"uname",
 
       },
@@ -18,7 +20,8 @@ import ReactDOM from 'react-dom';
           "title": " Phone number :",
           "emoje":"&#x1F4DE;",
           "placeholder":"Enter your phone number",
-          "id":"ph-num",
+            "type":"phone",
+           "id":"ph-num",
 
     },
 
@@ -26,6 +29,7 @@ import ReactDOM from 'react-dom';
         "title": " Address :",
         "emoje":" &#128205; ",
         "placeholder":"Enter your Address",
+          "type":"text",
         "id":"Add",
 
   },
@@ -34,6 +38,7 @@ import ReactDOM from 'react-dom';
       "title": " Email : ",
       "emoje":"&#x1F4E7;",
       "placeholder":"Name@example.com",
+        "type":"email",
       "id":"email",
 
 }

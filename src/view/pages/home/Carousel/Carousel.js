@@ -38,8 +38,8 @@ class Carousel extends React.Component {
               <div className="carousel-item">
                 <img src={img2} alt="mon3" ></img>
                 <div className="carousel-caption">
-                <h1>Rainbow kids</h1>
-                <p>Montessori in daily life</p>
+                  <h1>Rainbow kids</h1>
+                  <p>Montessori in daily life</p>
                 </div>
               </div>
               <div className="carousel-item">

@@ -24,7 +24,7 @@ class ListItem extends React.Component {
         // התנאי ל 2
        <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown" href={this.props.item.url}>
-                 <i className={this.props.item.icon}></i>  {this.props.item.title}
+                 <i className={this.props.item.icon}></i> {this.props.item.title}
             </a>
             <div className="dropdown-menu">
               <a className="dropdown-item" href="#">About children</a>

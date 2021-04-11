@@ -15,11 +15,11 @@ class ContactUs extends React.Component {
     return (
       <>
         <Header/>
-        <div className="container p-5 ">
+        <div className="container  p-5 ">
          <div className="col-10 ">
              <h1 className="text-center mt-5 py-5 title">𝑪𝒐𝒏𝒕𝒂𝒄𝒕 𝑼𝒔</h1>
                 <p className="text-info text-center">𝒘𝒉𝒂𝒕 𝒘𝒐𝒖𝒍𝒅 𝒚𝒐𝒖 𝒍𝒊𝒌𝒆 𝒕𝒐 𝒕𝒂𝒍𝒌 𝒂𝒃𝒐𝒖𝒕 </p>
-                <form action="/action_page.php " class="was-validated col-6  mx-auto">
+                <form action="/action_page.php " class="was-validated  et_pb_newsletter_form et_pb_login_form col-6  mx-auto">
                      <ConUsForm/>
                      <Parent/>
                      <Selector/>

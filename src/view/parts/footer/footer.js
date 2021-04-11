@@ -1,63 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './footer.css'
+import './footer.css';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
+import Img from '../../../img/ba1.jpg';
+import Icon from './icon/icon.js';
+import LogoPic from '../../general/logo/logo.js';
+import './footer.css';
 
 
 const FooterPage = () => {
   return (
-    <MDBFooter color="blue" className="font-small pt-4 mt-4">
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBRow>
-          <MDBCol md="3">
-            <h5 className="title">Rainbow kids</h5>
-            <p>
-               Give us a call :05028387377
-               <br />
+    <MDBFooter  className="font-small pt-4 mt-4 " >
+      <MDBContainer fluid className="text-center text-md-left ">
+        <MDBRow className="text-center ">
+          <MDBCol md="4">
+            <h5 className="footer-heading text-center"><LogoPic/></h5><br/>
+              <p className="text-center note">  Let's Keep in Touch  </p>
+              <p className="text-center note"> Give us a call :05028387377</p>
 
-
-               <a href="https://instagram.com/amlkady?igshid=bjang2prtqi7"> <i class="fa fa-instagram icon"></i></a>
-               <a href=""><i class="fa fa-facebook-f icon"></i></a>
-               <a href="#"><i class="fa fa-whatsapp icon"></i></a>
-              </p>
+              <Icon/>
 
           </MDBCol>
-          <MDBCol md="3">
-            <h5 className="title"> Quick Links</h5>
+          <MDBCol md="4">
+            <h5 className="footer-heading text-center"> Quick Links</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <a href="#!">chat</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+                <a href="#!">Get a free online course</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+                <a href="#!">Online Video Guides</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 4</a>
+                <a href="#!">Test your knowledge</a>
               </li>
             </ul>
           </MDBCol>
-          <MDBCol md="3">
-            <h5 className="title">Gallery</h5>
-            <ul>
-              <li className="list-unstyled">
-                <a href="#!">Link 1</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 2</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 3</a>
-              </li>
-              <li className="list-unstyled">
-                <a href="#!">Link 4</a>
-              </li>
-            </ul>
-          </MDBCol>
-          <MDBCol md="3">
-            <h5 className="title"> Subscribe</h5>
+
+          <MDBCol md="4">
+            <h5 className="footer-heading text-center"> Subscribe</h5>
 
             <form class=" form-control subscribe" novalidate="novalidate" action="#" method="post" id="newsletter-validate-detail">
               <label class=" label mr-5 text-danger " for="newsletter"><span>Sign Up:</span></label>
@@ -72,13 +55,9 @@ const FooterPage = () => {
         <MDBContainer fluid>
         <p > So glad you are here , we will contact you soon THANK YOU !&#128525; &#128151; </p>
 
-   <a href="https://instagram.com/amlkady?igshid=bjang2prtqi7"> <i class="fa fa-instagram icon"></i></a>
-   <a href=""><i class="fa fa-facebook-f icon"></i></a>
-   <a href="#"><i class="fa fa-whatsapp icon"></i></a>
-   <nav  class=" col-12 navbar mr-5 navbar-expand-md bg-light  justify-content-center navbar-light fixed-bottom"id="backtoTop"><a target="-top" href="#">Top</a></nav>
         </MDBContainer>
       </div>
-    </MDBFooter>
+  </MDBFooter>
   );
 }
 
