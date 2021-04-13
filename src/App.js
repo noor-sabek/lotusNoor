@@ -15,15 +15,13 @@ class App extends React.Component {
   render() {
     return (
         <main className="App" >
-                      <Switch>
-                          <Route path="/" component={Home} exact />
-                          <Route path="/Sign-up" component={SignUp}  />
-                          <Route path="/My-Passion" component={MyPassion}  />
-                          <Route path="/Contact-Us" component={ContactUs}  />
-                          <Route path="/About-Us" component={AboutUs}  />
-
-
-                      </Switch>
+            <Switch>
+                <Route path="/" component={Home} exact />
+                <Route path="/Sign-up" component={SignUp}  />
+                <Route path="/My-Passion" component={MyPassion}  />
+                <Route path="/Contact-Us" component={ContactUs}  />
+                <Route path="/About-Us" component={AboutUs}  />
+            </Switch>
 
           </main>
        );

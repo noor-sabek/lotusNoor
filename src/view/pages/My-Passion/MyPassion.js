@@ -9,6 +9,7 @@ class MyPassion extends React.Component {
     return (
       <div>
         <Header/>
+        
         <Footer/>
       </div>
 
