@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './footer.css';
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from 'mdbreact';
-import Img from '../../../img/ba1.jpg';
 import Icon from './icon/icon.js';
 import LogoPic from '../../general/logo/logo.js';
 import './footer.css';
@@ -13,6 +12,7 @@ const FooterPage = () => {
     <MDBFooter  className="font-small pt-4 mt-4 " >
       <MDBContainer fluid className="text-center text-md-left ">
         <MDBRow className="text-center ">
+
           <MDBCol md="4">
             <h5 className="footer-heading text-center"><LogoPic/></h5><br/>
               <p className="text-center note">  Let's Keep in Touch  </p>
@@ -22,7 +22,7 @@ const FooterPage = () => {
 
           </MDBCol>
           <MDBCol md="4">
-            <h5 className="footer-heading text-center"> Quick Links</h5>
+            <h5 className="footer-heading  "> Quick Links</h5>
             <ul>
               <li className="list-unstyled">
                 <a href="#!">chat</a>

@@ -14,8 +14,8 @@ import ReactDOM from 'react-dom';
           "title": "Articles",
           "url":"Articles",
           "level":"2",
-           "icon":"fa fa-book icon"
-
+           "icon":"fa fa-book icon",
+        
 
     },
     {

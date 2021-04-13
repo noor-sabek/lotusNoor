@@ -9,7 +9,7 @@ class DropdownList extends React.Component {
 
   render() {
     const DropdownList = DropdownItems.map((jsonpart) =>(
-        <ListItem item={jsonpart} />));
+        <ListItem dropdownitem={jsonpart} />));
   return (
            <a>{DropdownList}</a>
       );

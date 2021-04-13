@@ -7,10 +7,10 @@ import Footer from '../../parts/footer/footer.js';
 class MyPassion extends React.Component {
   render() {
     return (
-      <>
+      <div>
         <Header/>
         <Footer/>
-      </>
+      </div>
 
     );
   }

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from '../../general/menu/navBar.js';
+import Navbar from './navBar.js';
 
 
 

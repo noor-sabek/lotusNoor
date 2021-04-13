@@ -1,8 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import AboutusCards from '../../pages/about-us/AboutusCards.js';
-
-
 
 
 

@@ -10,11 +10,16 @@
 
 .btn.btn-primary{
     background-color: #ad8c6d;
-    }
+    margin-top:20px;
+  }
 
 
-    .btn-success {
-      color: #fff!important;
-        background-color: #59afaf!important;
-        border-color: #859488!important;
-      }
+.btn-success {
+    color: #fff!important;
+    background-color: #59afaf!important;
+    border-color: #859488!important;
+  }
+  .style{
+    background-color: #dfe8e7;
+
+  }
